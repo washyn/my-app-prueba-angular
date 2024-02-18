@@ -1,0 +1,18 @@
+<div>
+  <div>
+    <button (click)="getRandomData()">Fetch</button>
+  </div>
+  <div>
+    <img [src]="data.message" width="300">
+  </div>
+  <div>
+    <div>
+      JSON
+    </div>
+    <div>
+      <pre>
+        {{data|json}}
+      </pre>
+    </div>
+  </div>
+</div>

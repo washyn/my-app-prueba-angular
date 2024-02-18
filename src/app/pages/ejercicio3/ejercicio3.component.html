@@ -1,0 +1,13 @@
+<div>
+  <div>
+    Formulario reactivo
+  </div>
+  <div>
+    <form [formGroup]="formGroup">
+      <input formControlName="userName"/>
+      <div>
+        <span>Form is valid : {{!formGroup.invalid}}</span>
+      </div>
+    </form>
+  </div>
+</div>
