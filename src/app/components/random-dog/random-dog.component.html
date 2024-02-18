@@ -3,15 +3,13 @@
     <button (click)="getRandomData()">Fetch</button>
   </div>
   <div>
-    <img alt="Imagen random" [src]="data.message" width="300">
+    <img alt="Imagen random" [src]="data.message" width="300" />
   </div>
   <div>
-    <div>
-      JSON
-    </div>
+    <div>JSON</div>
     <div>
       <pre>
-        {{data|json}}
+        {{ data | json }}
       </pre>
     </div>
   </div>

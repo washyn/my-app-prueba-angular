@@ -1,7 +1,10 @@
-<div class="card">
-  <button (click)="closeModal()"><b>X</b></button>
-
-  <h5>{{title}}</h5>
+<div class="border">
+  <div>
+    <h5 class="di">{{ title }}</h5>
+    <button (click)="closeModal()" class="di">
+      <b>X</b>
+    </button>
+  </div>
 
   <ng-content></ng-content>
 </div>

@@ -1,9 +1,5 @@
-<app-modal *ngIf="isOpened" title="Este es un modal"  (close)="isOpened=false">
-  <p>
-    Este es un ejemplo un texto en <b>negrita</b>
-  </p>
+<app-modal *ngIf="isOpened" title="Este es un modal" (close)="isOpened = false">
+  <p>Este es un ejemplo un texto en <b>negrita</b></p>
 </app-modal>
 
-<button (click)="isOpened=true">
-  Lanzar modal
-</button>
+<button (click)="isOpened = true">Lanzar modal</button>
